@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Zellar App</title>
+		<link rel="stylesheet" href="css/uikit.almost-flat.css" />
+
+		<style type="text/css">
+			@font-face
+			{
+				font-family: Aller;
+				src: url("fonts/Aller_BdIt.ttf");
+			}
+
+			#logo {
+				display:block;
+				float: left;
+				margin: 150px 0px 0px 30%;
+			}
+
+			#download-button{
+				margin: 80px 0px 0px;
+			}
+
+			h1#stroke{
+				text-shadow: 3px 4px 1px rgba(44, 62, 80, 0.5);
+				letter-spacing: -0.055em;
+			}
+
+			footer#foot{
+				padding: 50px 0px;
+				letter-spacing: -0.02em;
+				background: none repeat scroll 0% 0% rgb(44, 62, 80);
+				color: rgb(236, 240, 241) !important;
+
+				-webkit-box-shadow: 1px -10px 22px -6px rgba(44,62,80,1);
+				-moz-box-shadow: 1px -10px 22px -6px rgba(44,62,80,1);
+				box-shadow: 1px -10px 22px -6px rgba(44,62,80,1);
+			}
+
+			a#foot{
+				color: rgb(236, 240, 241);
+			}
+
+			.over{
+				position: absolute;
+				z-index: -1;
+			}
+
+			.under {
+				position: relative;
+				left: 150px;
+			}			
+		</style>
+		<link rel="shortcut icon" href="res/favicon.ico">
+
+	</head>
+	<body>
+		<div id="shadow" class="uk-container uk-container-center">
+			<div class="uk-grid">
+			<div class="uk-width-medium-1-2">
+				<div id="logo">
+				<h1 id="stroke">zellar</h1>
+				<p class="uk-article-lead">Sell Anything, Deal Anywhere.</p>
+				
+				<a id="download-button" class="uk-button uk-button-large" href="src/Zellar.apk"><i class="uk-icon-android"></i>&nbsp;&nbsp;&nbsp;&nbsp;Get Zellar for Android</a>
+				<p><code>Alpha Revision 4.0</code></p>
+				</div>
+			</div>
+			<div class="uk-width-medium-1-2">
+				<p class="uk-margin-top">
+					<img class="uk-align-medium-left over" width="300" alt="screenshot" src="res/front.png">
+					<img class="uk-align-medium-left under" width="400" alt="screenshot" src="res/list.png">
+				</p>
+			</div>
+			</div>
+		</div>
+			<footer id="foot">
+				<div class="uk-container uk-container-center uk-text-center">
+					<ul class="uk-subnav uk-subnav-line">
+						<li><a id="foot" href="//github.com/aimanbaharum/">Github</a></li>
+						<li><a id="foot" href="//twitter.com/aiman_baharum">Twitter</a></li>
+						<li><a id="foot" href="//aimanbaharum.blogspot.com/">Blog</a></li>
+						<li><a id="foot" href="//aimanbaharum.blogspot.com/">About</a></li>
+					</ul>
+					<div class="uk-panel">
+						<p>Aiman Baharum (C) 2013</p>
+					</div>
+				</div>
+			</footer>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/uikit.min.js"></script>
+	</body>
+
+
+</html>
