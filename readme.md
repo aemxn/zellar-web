@@ -4,11 +4,8 @@ Experimental build revision 4.0
 
 APK version 4.0 (alpha)
 
-<<<<<<< HEAD
 Download [apk 4.0](https://github.com/aimanbaharum/zellar-web/blob/master/src/Zellar-alpha-4.0.apk) (alpha release)
 
-=======
->>>>>>> master
 ### Description
 Zellar is a social commerce app for individual person to start a (very) small business of his own.
 
